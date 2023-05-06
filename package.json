@@ -1,0 +1,23 @@
+{
+  "name": "folderone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "yarn run compile && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.21.0",
+    "firebase-admin": "^11.7.0",
+    "graphql": "^16.6.0",
+    "mysql2": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
